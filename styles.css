@@ -42,7 +42,7 @@ h1 {
 
 /* Clickable hub-link headings get an arrow indicator */
 a.hub-link h2::after {
-    content: " \2192";  /* → rightwards arrow */
+    content: " \25B8";  /* ▸ small right-pointing triangle */
     color: #999;
     margin-left: 8px;
 }
