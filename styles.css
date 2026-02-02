@@ -40,6 +40,18 @@ h1 {
     box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
+/* Clickable hub-link headings get an arrow indicator */
+a.hub-link h2::after {
+    content: " \2B9E";  /* ⮞ rightward arrow */
+    color: #999;
+    font-size: 0.8em;
+    margin-left: 8px;
+}
+
+a.hub-link:hover h2::after {
+    color: inherit;
+}
+
 .hub-link h2 {
     color: #003366;
     margin-top: 0;
