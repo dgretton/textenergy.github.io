@@ -51,6 +51,12 @@ a.hub-link:hover h2::after {
     color: inherit;
 }
 
+/* Fake link styling for text that looks clickable within a card link */
+.fake-link {
+    color: #0066cc;
+    text-decoration: underline;
+}
+
 .hub-link h2 {
     color: #003366;
     margin-top: 0;
